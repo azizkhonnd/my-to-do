@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  color: white;
+  background-color: #1f1f1f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+input {
+  color: #140f0f;
+  border-radius: 6px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  outline: 2px solid rgb(0, 230,122);
+}
+
+
+:where(.css-dev-only-do-not-override-1c0na6j).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item, :where(.css-dev-only-do-not-override-1c0na6j).ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item, :where(.css-dev-only-do-not-override-1c0na6j).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title, :where(.css-dev-only-do-not-override-1c0na6j).ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title {
+  padding: 1.4px 2px !important;
+  width: 100%;
+}
+
+:where(.css-dev-only-do-not-override-1c0na6j).ant-dropdown .ant-dropdown-menu, :where(.css-dev-only-do-not-override-1c0na6j).ant-dropdown-menu-submenu .ant-dropdown-menu {
+  padding: 1px !important;
+}
+
+:where(.css-dev-only-do-not-override-1c0na6j).ant-dropdown .ant-dropdown-menu, :where(.css-dev-only-do-not-override-1c0na6j).ant-dropdown-menu-submenu .ant-dropdown-menu {
+  border-radius: 3px;
+  margin-left: 8px;
+  margin-top: -18px;
+}
